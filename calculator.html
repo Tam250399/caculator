@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="code.css">
+    <script type="text/javascript" src="file.js"></script>
+</head>
+
+<body>
+    <div id="main" name="example">
+        <table border="1" id="area">
+            <tr>
+                <td><input id="name" type="text" name="text" readonly=""></td>
+            </tr>
+
+        </table>
+        <table border="1" id="keywork">
+            <tr>
+                <td><button type="button" value="9" onclick="show('9')">9</button></td>
+                <td><button type="button" value="8" onclick="show('8')">8</button></td>
+                <td><button type="button" value="7" onclick="show ('7')">7</button></td>
+                <td><button type="button" value="+" onclick="show('+')">+</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" value="6" onclick="show('6')">6</button></td>
+                <td><button type="button" value="5" onclick="show('5')">5</button></td>
+                <td><button type="button" value="4" onclick="show('4')">4</button></td>
+                <td><button type="button" value="-" onclick="show('-')">-</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" value="3" onclick="show('3')">3</button></td>
+                <td><button type="button" value="2" onclick="show ('2')">2</button></td>
+                <td><button type="button" value="1" onclick="show ('1')">1</button></td>
+                <td><button type="button" value="*" onclick="show('*')">*</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" value="0" onclick="show('0')">0</button></td>
+                <td><button type="button" value="/" onclick="show('/')">/</button></td>
+                <td><button type="button" value="%" onclick="show('%')">%</button></td>
+                <td><button type="button" value="=" onclick="ketqua()">=</button></td>
+            </tr>
+
+        </table>
+        <input id="xoa" type="reset" value="delete" onclick="del('')">
+
+
+    </div>
+
+</body>
+
+</html>

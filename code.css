@@ -1,0 +1,50 @@
+body {
+    background-color: olivedrab;
+}
+
+#main {
+    width: 130px;
+    height: 180px;
+    background-color: black;
+    margin-left: 190px;
+    border-radius: 4px;
+}
+
+#area {
+    width: 130px;
+    height: 45px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#keywork {
+    color: black;
+    background-color: #ccc;
+    margin-left: 3px;
+    text-align: center;
+}
+
+button {
+    width: 100%;
+    cursor: pointer;
+}
+
+button:hover {
+    color: red;
+}
+
+#name {
+    width: 112px;
+}
+
+#xoa {
+    width: 127px;
+    height: 27px;
+    background-color: #ccc;
+    margin-left: 1.5px;
+    cursor: pointer;
+}
+
+#xoa:hover {
+    color: red;
+}
